@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#title {
+  color: #ff7043;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.user-card .card-title {
+  color: #ff7043;
+  font-weight: bold;
+}
+
+.user-card .card-subtitle {
+  color: #ff8a65;
+}
+
+.user-card .card-text {
+  color: #595959;
+}
+
+.btn-primary {
+  background-color: #ffcc80;
+  border-color: #ffcc80;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #ffb74d;
+  border-color: #ffb74d;
+}
+
+.btn-warning {
+  background-color: #ff7043;
+  border-color: #ff7043;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-warning:hover {
+  background-color: #ff8a65;
+  border-color: #ff8a65;
+}
+
+.btn-danger {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-danger:hover {
+  background-color: #e55656;
+  border-color: #e55656;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  color: #ff7043;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.form-label {
+  color: #ff7043;
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #ff7043;
+  box-shadow: 0 0 0 0.2rem rgba(255, 112, 67, 0.25);
+}
